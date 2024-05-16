@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(23, 190, 190);
+}
+
+.GalleryScroll{
+display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+}
+  
+.GalleryItem {
+    padding: .5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #333;
+    color: #d9d9d9;
+    scroll-snap-align: center;
+}
+
+.GalleryItem:hover {
+
+scale: 1.2;
+}

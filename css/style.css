@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(23, 190, 190);
+}
+.resizable {
+    width: 300px; /* Beispielgröße, du kannst sie anpassen */
+    animation: resize 5s infinite; /* Animation anwenden */
+}
+
+@keyframes resize {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+p::first-letter{
+    font:bold;
+    text-transform: uppercase;
+    font-family: Jersey 15;
+    font-size: x-large;
+    text-indent: 2%;
+}
+.jersey-15-regular {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
