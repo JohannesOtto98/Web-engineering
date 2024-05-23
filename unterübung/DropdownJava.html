@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript-Übung</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+  <div class="JavaScript-Übung">
+    <h1>JavaScript-Übung</h1>
+    <p>Bitte wählen Sie eine bevorzugte Frucht:</p>
+    <select id="dropdownMenu">
+      <option id="myOption1" value="Apfel">Apfel</option>
+      <option id="myOption2" value="Banane">Banane</option>
+    </select>
+    <button type="button" onclick="myFunction()">Auswählen</button>
+    <p id="output"></p>
+  </div>
+
+  <script>
+    function myFunction() {
+      // Hole das Drop-Down-Menü-Element
+      var dropdown = document.getElementById("dropdownMenu");
+      // Hole den ausgewählten Wert
+      var selectedValue = dropdown.value;
+      // Füge den ausgewählten Wert in den p-Tag ein
+      document.getElementById("output").innerText = "Ausgewählte Frucht: " + selectedValue;
+    }
+  </script>
+</body>
+</html>

@@ -44,5 +44,11 @@
     <figcaption>LOL</figcaption>
 </figure>
     </div>
+    <script>
+            document.querySelector("figcaption").innerText = "Neuer Text mit innerText";
+            document.querySelectorAll("figcaption")[1].innerHTML = 'LOL<br><a href="https://example.com">Ein Hyperlink</a>';
+            document.querySelectorAll("figcaption")[2].innerText = "Noch ein neuer Text mit innerText";
+            document.querySelectorAll("figcaption")[3].innerHTML = 'LOL<br><a href="https://example.com">Ein weiterer Hyperlink</a>';
+      </script>
   </body>
 </html>
