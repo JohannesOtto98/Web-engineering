@@ -1,0 +1,19 @@
+{
+  "photos": [
+    {
+      "id": "2",
+      "title": "Cityscape",
+      "url": "https://example.com/city.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Animals",
+      "url": "https://example.com/animals.jpg"
+    },
+    {
+      "id": "4ff4",
+      "title": "Mountains",
+      "url": "https://example.com/mountains.jpg"
+    }
+  ]
+}
